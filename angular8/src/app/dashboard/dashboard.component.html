@@ -1,0 +1,70 @@
+<app-nav></app-nav>
+<p> Welcome!</p>
+
+
+<p>The Eye of the Moon Plan (月の眼計画, Tsuki no Me Keikaku, English TV: Project "Tsuki no Me") was created by Madara Uchiha as a way to bring peace to the world.Though its execution does not go according to plan and some furthered it for their different personal motivations, the end goal remains the same for all involved: projecting the Infinite Tsukuyomi on the moon in order to trap the entire world in a dream, thus saving mankind from destroying itself but also at the price of robbing free will from the entire world.</p>
+
+
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Faminoapps.com%2Fc%2Fnaruto%2Fpage%2Fitem%2Fmadara-uchiha%2FWQ4Z_ldsVIL6NlQkWR21vBWvVpjrZaG8Lv&psig=AOvVaw2NlNIjneaa9Zemcs-ryBYo&ust=1600513686299000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjhuKTI8usCFQAAAAAdAAAAABAK.png" style="width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMangekyou_Sharingan_Madara_(Eternal).svg&psig=AOvVaw2NlNIjneaa9Zemcs-ryBYo&ust=1600513686299000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMjhuKTI8usCFQAAAAAdAAAAABAQ.png" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://e7.pngegg.com/pngimages/685/83/png-clipart-madara-uchiha-zetsu-youtube-uchiha-clan-naruto-madara-black-hair-manga.png" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+       

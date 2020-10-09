@@ -1,0 +1,15 @@
+body{
+  color: red;
+  text-size-adjust: 100px;
+  text-align: center;
+  
+  }
+  video{
+    position: absolute; ;
+
+
+    src: url(https://www.youtube.com/watch?v=GV2wzNQ0JnQ.mp4);
+  }
+  a{
+    color: yellowgreen
+  }

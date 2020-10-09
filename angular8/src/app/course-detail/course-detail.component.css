@@ -1,0 +1,56 @@
+h2{
+    color: whitesmoke
+    
+  }
+  
+  
+  p{
+    color: whitesmoke
+  }
+  
+  
+  div.input {
+    position: relative;
+    color: whitesmoke
+  }
+  div.input.label {
+    position: absolute;
+  top: 0;
+  transform:translateY(-50%);
+  left: 10px;
+  background: whitesmoke;
+  padding: 40px 50px;
+  position: relative;
+  
+  }
+  div.input input{
+  padding: 10px 20px;
+  font-size: 30px;
+  outline: 0;
+  position:'center'
+  }
+  div.input {
+    margin-top: 40px;
+    size: 40px
+  }
+  label{
+    position: relative;
+     color:whitesmoke ;
+     font-size: 20px;
+     right: 0;
+     top: 0;
+     margin: 0;
+     width: 20%;
+     
+    
+  
+  }
+  
+  ::placeholder{
+  
+  color: whitesmoke;
+  size: 60px
+  
+  
+  }
+  
